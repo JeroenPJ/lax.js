@@ -28,6 +28,7 @@
       "data-lax-translate": (style, v) => { style.transform += ` translate(${v}px, ${v}px)` },
       "data-lax-translate-x": (style, v) => { style.transform += ` translateX(${v}px)` },
       "data-lax-translate-y": (style, v) => { style.transform += ` translateY(${v}px)` },
+      "data-lax-translate-z": (style, v) => { style.transform += ` translateZ(${v}px)` },
       "data-lax-scale": (style, v) => { style.transform += ` scale(${v})` },
       "data-lax-scale-x": (style, v) => { style.transform += ` scaleX(${v})` },
       "data-lax-scale-y": (style, v) => { style.transform += ` scaleY(${v})` },
