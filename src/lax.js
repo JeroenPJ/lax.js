@@ -48,6 +48,11 @@
       "data-lax-bg-pos-x": (style, v) => { style.backgroundPositionX = `${v}px` },
       "data-lax-bg-pos-y": (style, v) => { style.backgroundPositionY = `${v}px` }
     }
+    
+    lax.addTransform = (n, f) => {
+      transformFns[n] = f
+      lax.updateElements && lax.updateElements()
+    }
 
     let crazy = ""
 
